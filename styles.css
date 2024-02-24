@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* General body styling */
+.body-class {
+    background-color: #f0f0f0; /* Subtle background color */
+  }
+  
+  /* Header styling */
+  .header-class {
+    background-color: #333; /* Contrasting background color */
+    color: #fff; /* Font color for better visibility */
+  }
+  
+  /* Navigation bar styling */
+  .nav-class {
+    background-color: #555; /* Different background color */
+    color: #f2f2f2; /* Font color */
+  }
+  
+  .nav-class .nav-link-class {
+    color: #f2f2f2; /* Font color for links */
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav-class .nav-link-class:hover, .nav-class .nav-link-class:focus {
+    font-weight: bold; /* Make active link bold */
+  }
+  
+  /* Title and section title styling */
+  .title-class, .section-title-class {
+    color: #007bff; /* Distinct color for titles */
+  }
+  
+  /* Text styling */
+  .text-class {
+    color: #333; /* Font color that contrasts well with the background */
+  }
+  
+  /* Image styling */
+  .image-class {
+    border: 4px solid #007bff; /* Image border with a complementary color */
+  }
+  
+  /* Form and button styling */
+  .form-class {
+    /* Styles for form fields */
+  }
+  
+  .form-class .input-class {
+    margin: 10px 0; /* Spacing */
+  }
+  
+  .button-class {
+    background-color: #28a745; /* Cohesive button color */
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-class:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  
+  /* Footer styling */
+  .footer-class {
+    background-color: #333; /* Distinct background */
+    color: #ffffff; /* Font color */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .nav-class, .nav-class .nav-link-class {
+      display: block;
+      text-align: center;
+    }
+  
+    .image-class {
+      width: 100%; /* Make images scalable */
+      height: auto;
+    }
+  }
+  
+  /* Accessibility improvements */
+  /* Ensure text is readable and controls are accessible */
+  
